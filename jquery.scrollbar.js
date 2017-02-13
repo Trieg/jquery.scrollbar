@@ -7,7 +7,7 @@
  * If you found bug, please contact me via email <13real008@gmail.com>
  *
  * @author Yuriy Khabarov aka Gromo
- * @version 0.2.11
+ * @version 0.2.12
  * @url https://github.com/gromo/jquery.scrollbar/
  *
  */
@@ -187,7 +187,7 @@
 
                 cssOptions = {
                     "height": "auto",
-                    "margin-bottom": browser.scroll.height * -1 + 'px',
+                    //"margin-bottom": browser.scroll.height * -1 + 'px', // Adds unnecessary margin on Firefox
                     "max-height": ""
                 };
                 cssOptions[o.isRtl ? 'margin-left' : 'margin-right'] = browser.scroll.width * -1 + 'px';
@@ -269,7 +269,7 @@
             } else {
                 cssOptions = {
                     "height": "auto",
-                    "margin-bottom": browser.scroll.height * -1 + 'px',
+                    //"margin-bottom": browser.scroll.height * -1 + 'px', // Adds unnecessary margin on Firefox
                     "max-height": ""
                 };
                 cssOptions[o.isRtl ? 'margin-left' : 'margin-right'] = browser.scroll.width * -1 + 'px';
@@ -620,6 +620,7 @@
                 } else {
                     containerWrapper.css({
                         //"height": "auto", // do not reset height value: issue with height:100%!
+                        "height": AreaVisible + 'px',// Needed for Firefox to calculate real visible area, and not to exclude horizontal scrollbar area
                         "max-height": (AreaVisible + browser.scroll.height) + 'px'
                     });
                 }

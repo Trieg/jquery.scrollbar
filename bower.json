@@ -1,6 +1,6 @@
 {
   "name": "jquery.scrollbar",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "main": [
     "./jquery.scrollbar.js",
     "./jquery.scrollbar.css"

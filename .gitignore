@@ -1,4 +1,5 @@
 .netbeans.xml
 .sass-cache
+.idea
 node_modules
 nbproject
