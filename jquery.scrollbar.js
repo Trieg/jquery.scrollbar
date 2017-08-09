@@ -162,7 +162,8 @@
             // do not init if in ignorable browser
             if ((browser.mobile && o.ignoreMobile)
                 || (browser.overlay && o.ignoreOverlay)
-                || (browser.macosx && !browser.webkit) // still required to ignore nonWebKit browsers on Mac
+                // Initialize jquery scrollbar for MacOS, it should be supported now
+                //|| (browser.macosx && !browser.webkit) // still required to ignore nonWebKit browsers on Mac
                 ) {
                 if ($.isFunction(o.onFallback)) {
                     o.onFallback.apply(this, [c]);
