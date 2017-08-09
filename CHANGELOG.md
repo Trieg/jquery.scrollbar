@@ -1,5 +1,8 @@
 <h4>v0.2.12 (20170213)</h4>
-Fix unnecessary margin and scroll-content height bug on Mozilla FireFox and IE/Edge
+Initialize jQuery Scrollbar in Firefox MacOS, hopefully it is supported now
+
+<h4>v0.2.12 (20170213)</h4>
+Fix unnecessary margin and scroll-content height bug on Mozilla Firefox and IE/Edge
 
 <h4>v0.2.11 (20160803)</h4>
 Fix bug with Mozilla FireFox
