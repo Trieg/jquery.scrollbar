@@ -1,5 +1,5 @@
 {
-  "name": "jquery.scrollbar",
+  "name": "@nsoft/jquery.scrollbar",
   "version": "0.2.13",
   "description": "Cross-browser CSS customizable scrollbar",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gromo/jquery.scrollbar.git"
+    "url": "https://github.com/seven-cd/jquery.scrollbar"
   },
   "keywords": [
     "jquery",
@@ -19,7 +19,7 @@
   "author": "Yuriy Khabarov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gromo/jquery.scrollbar/issues"
+    "url": "https://github.com/seven-cd/jquery.scrollbar/issues"
   },
-  "homepage": "https://github.com/gromo/jquery.scrollbar"
+  "homepage": "https://github.com/seven-cd/jquery.scrollbar"
 }
