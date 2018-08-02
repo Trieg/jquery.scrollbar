@@ -1,6 +1,6 @@
 {
   "name": "@nsoft/jquery.scrollbar",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "Cross-browser CSS customizable scrollbar",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/seven-cd/jquery.scrollbar"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "jquery",

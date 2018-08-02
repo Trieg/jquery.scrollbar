@@ -1,4 +1,7 @@
-<h4>v0.2.12 (20170213)</h4>
+<h4>v0.2.14 (20180802)</h4>
+Add npm publish config
+
+<h4>v0.2.13 (20170809)</h4>
 Initialize jQuery Scrollbar in Firefox MacOS, hopefully it is supported now
 
 <h4>v0.2.12 (20170213)</h4>
